@@ -1,0 +1,206 @@
+h1{
+    color:red;
+}
+
+.container{
+    /* border: 2px solid black; */
+    display: flow-root;
+/* 
+    width:850px;
+    height:1050px; */
+}
+
+.hindi {
+    @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Ojuju:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+
+    text-align:center;
+    color:#414002!important;
+    font-weight: bold;
+    font-size: 1.2em; 
+    margin-top: 3px; 
+    font-family: "Tiro Devanagari Hindi", sans-serif;
+    margin-bottom: 0px;
+}
+
+.eng{
+    text-align:center;
+    color: #414002!important;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif!important;
+    font-size: 1.3em;
+    margin-top: 0px;
+}
+
+.logo{
+    float: left;
+    background-color: white;
+    /* display: inline-flex; */
+    border-radius: 50%;
+    /* border: 2px solid black; */
+}
+
+
+.edu li{
+
+    margin-top:100px;
+    color:red;
+    font-weight: bold;
+}
+
+.head th {
+    text-align: left;
+    /* padding-left: 600px; */
+    border:1px solid black;
+    font-weight: bold;
+}
+
+.th{
+    font-weight: bold;
+    border: 1px solid grey;
+    text-align: left;
+    padding: 8px 2px 8px 2px;
+}
+
+h4{
+    color:red;;
+}
+
+
+	@page { margin:0.5in 0.5in 0.5in 0.5in; }
+
+	    .receipt {
+	        margin:0 auto 1in auto;
+	        /*font-family:"verdana",monospace;*/
+	        border:solid #000;
+	        padding:0 0.25in;
+	        width:10in;
+	        min-height:2.5in;
+	        height: auto;
+	        /*page-break-inside:avoid;
+	        page-break-before:auto;
+	        page-break-after:auto;*/
+	        /*word-wrap: break-word;*/
+	    }
+	  
+
+	    .receipt div {
+	        margin:0;
+	        margin-bottom:0.1in;
+	        padding:0;
+	        /*word-wrap: break-word;*/
+	    	/*background-color: green;*/
+
+
+	    }
+
+	    .receipt span {
+	        display:inline-block;
+	        line-height:2;
+	    }
+
+	    .receipt p, .receipt span {
+	        margin:0; padding:0;
+
+
+	    }
+
+	    .title {
+	        font-family:Arial,sans-serif;
+	        font-size:1.5em;
+	        color: #a40a0b;
+	        font-weight:bold;
+	        width:100%;
+	    }
+
+	    .label {
+	        font-weight:bold;
+	        color: #a40a0b;
+	        background-color: #f1f1d1;
+	        margin-bottom: 10px!important;
+	        padding-left: 5px!important;
+	        padding-right: 5px!important;
+	        border-radius: 5px;
+	        font-size: 1.1em;
+	    }
+
+	    .date, .payee, .phone, .signature {
+	        border-bottom:solid thin #444;
+	    }
+
+	    .payee, .signature { width:2in; }
+
+	    .phone, .date  { width:1.25in; }
+
+	    .amount, .payer {
+	        font-style:italic;
+	        text-decoration:underline;
+	    }
+	    .tab{
+	    	border-collapse: collapse;
+	    	width: 100%;
+	    	/*word-break: break-all;
+	    	word-wrap: break-word;*/
+
+	    	/*background-color: green;*/
+	    	/*word-wrap: break-word!important;*/
+
+	    	/*white-space: pre-line!important;*/
+	    	/*overflow:auto!important;*/
+	    }
+	    .tab td{
+	    	border:1px solid #CCC !important;
+	    	padding-left: 10px;
+	    	/*background-color:#DDFFFF;*/
+
+	    	word-wrap: break-word!important;
+	    	/*white-space: pre-line!important;*/
+	    	/*overflow:auto!important;*/
+	    	/*background-color: red;*/
+
+	    }
+	    .receipt_left{
+	    	float: left;
+	    	width:5.5in;
+	    	/*word-wrap: break-word;*/
+	    }
+	    .receipt_right{
+	    	float: right;
+	    	width:1.5in;
+	    	/*word-wrap: break-word;*/
+	    }
+
+	    .receipt_left1{
+	    	float: left;
+	    	width:4.5in;
+	    	/*word-wrap: break-word;*/
+	    }
+	    .receipt_right1{
+	    	float: right;
+	    	width:4.5in;
+	    	/*word-wrap: break-word;*/
+	    }
+
+	    .receipt_right img
+	    {
+	    	height: 1in;
+	    	width: 0.8in;
+	    	padding: 2px;
+	    	border: 1px solid #CCC;
+	    }
+
+	    .receipt_center{
+	    	/*float: left;*/
+	    	width:auto;
+	    	height: 120px;
+	    	/*word-wrap: break-word;*/
+	    }
+
+		th
+		{
+			text-align: left;
+		}
+
+		.tr_title
+		{
+			color: #0a5398;
+        }
